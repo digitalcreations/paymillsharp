@@ -18,10 +18,10 @@ namespace PaymillSharp.Internal
         {
             var props = typeof(T).GetProperties();
 
-            if (!data.GetType().ToString().StartsWith("PaymillWrapper.Models"))
+            if (!data.GetType().ToString().StartsWith("PaymillSharp.Models"))
                 throw new PaymillException(
                     String.Format("Unknown object type '{0}'. Only objects in package " +
-                    "'PaymillWrapper.Paymill.Model' are supported.", data.GetType())
+                    "'PaymillSharp.Paymill.Model' are supported.", data.GetType())
                     );
 
             var sb = new StringBuilder();
