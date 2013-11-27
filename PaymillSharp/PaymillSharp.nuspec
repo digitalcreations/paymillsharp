@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>PaymillSharp</id>
-    <version>0.3</version>
+    <version>0.3.1</version>
     <title>PaymillSharp</title>
     <authors>Digital Creations AS</authors>
     <owners>vegardlarsen</owners>
